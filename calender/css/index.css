@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg,#1d0000,#20205b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.calender{
+   margin-bottom: 100px;
+    height: 250px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+   
+}
+.left,.right{
+    width: 200px;
+height: 100%;
+align-items: center;
+display: flex;
+font-size: 24px;
+justify-content: center;
+flex-direction: column;
+}
+.right
+{
+    background: #f4351e;
+    color: #fff;
+   
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.left{
+    
+}
+#date{
+    font-size: 100px;
+}
